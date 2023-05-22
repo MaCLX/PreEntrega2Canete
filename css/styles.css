@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+p {
+    color: rgba(245, 245, 220, 0.822);
+    font-size: 1.3rem;
+    font-family: roboto;
+}
+
+footer {
+    background-color: rgba(100, 148, 237, 0.603);
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+.h-footer{
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+.foter {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    list-style: none;
+
+
+
+}
+
+.nav-link {
+    color: cornflowerblue;
+    font-family: roboto;
+    font-size: 1rem;
+}
+
+.navbar-nav {
+    gap: 37px;
+}
+
+.iconos {
+    color: black;
+    font-size: 44px;
+
+}
