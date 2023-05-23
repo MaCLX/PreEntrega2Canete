@@ -19,17 +19,23 @@ footer {
     background-color: rgba(100, 148, 237, 0.603);
 }
 
-h1{
+h1 {
     color: white;
     font-weight: bold;
 }
+  h3{
+    color: gray;
+ }
+
+ h2{
+    color: grey;
+ }
 
 
-
-
-.h-footer{
+.h-footer {
     color: black;
     font-size: 1.5rem;
+    font-family: roboto;
 }
 
 
@@ -39,6 +45,7 @@ h1{
     gap: 40px;
     text-align: center;
     list-style: none;
+
 
 
 
