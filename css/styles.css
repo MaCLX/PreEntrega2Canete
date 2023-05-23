@@ -23,14 +23,20 @@ h1 {
     color: white;
     font-weight: bold;
 }
-  h3{
+
+h3 {
     color: gray;
- }
+}
 
- h2{
+h2 {
     color: grey;
- }
+}
 
+
+
+.contenedor-carousel{
+    width: 500px;
+}
 
 .h-footer {
     color: black;
