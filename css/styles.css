@@ -16,7 +16,7 @@ p {
 }
 
 footer {
-    background-color: rgba(100, 148, 237, 0.603);
+    background-color: rgba(74, 115, 190, 0.603);
 }
 
 h1 {
@@ -32,11 +32,24 @@ h2 {
     color: grey;
 }
 
-.h1-home{
+form {
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 5%;
+}
+
+html {
+    background-color: rgba(21, 19, 37, 0.603);
+}
+
+
+
+
+.h1-home {
     display: none;
 }
 
-.contenedor-carousel{
+.contenedor-carousel {
     width: 500px;
 }
 
@@ -59,16 +72,30 @@ h2 {
 }
 
 .nav-link {
+    
     color: cornflowerblue;
     font-family: roboto;
     font-size: 1rem;
+
+
+}
+
+.navbar-nav :hover {
+color: rgb(143, 143, 54);
 }
 
 .navbar-nav {
+
     gap: 37px;
+
+}
+
+.iconos :hover {
+    color: rgb(143, 143, 54);
 }
 
 .iconos {
+    
     color: black;
     font-size: 43px;
 
