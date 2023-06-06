@@ -1,103 +1,85 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
-p {
-    color: rgba(245, 245, 220, 0.822);
-    font-size: 1.3rem;
-    font-family: roboto;
+nav .nav-link {
+  color: rgba(47, 194, 174, 0.808);
+  font-family: roboto;
+  font-size: 1rem;
+  font-weight: bold;
+}
+nav .navbar-nav :hover {
+  color: rgb(52, 226, 130);
+}
+nav .navbar-nav {
+  gap: 37px;
+}
+
+section h1 {
+  color: white;
+  font-weight: bold;
+}
+section h2 {
+  color: grey;
+}
+section h3 {
+  color: gray;
+}
+section .h1-home {
+  display: none;
+}
+section p {
+  color: rgba(245, 245, 220, 0.822);
+  font-size: 1.3rem;
+  font-family: roboto;
+}
+section .parrafo-home {
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+section .parrafo-historia {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+section .contenedor-carousel {
+  width: 500px;
+  padding-bottom: 1%;
+}
+section .w-75 {
+  padding-bottom: 2%;
+}
+section .formulario {
+  font-size: 1.3rem;
+  color: white;
+  padding-top: 10%;
 }
 
 footer {
-    background-color: rgba(74, 115, 190, 0.603);
+  background-color: rgba(47, 194, 174, 0.637);
+}
+footer .h-footer {
+  color: black;
+  font-size: 1.5rem;
+  font-family: roboto;
+}
+footer .foter {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+footer .iconos :hover {
+  color: rgb(52, 226, 130);
+}
+footer .iconos {
+  color: black;
+  font-size: 43px;
 }
 
-h1 {
-    color: white;
-    font-weight: bold;
-}
-
-h3 {
-    color: gray;
-}
-
-h2 {
-    color: grey;
-}
-
-form {
-    font-size: 1.2rem;
-    color: white;
-    padding-top: 5%;
-    
-}
-
-html {
-    background-color: rgba(21, 19, 37, 0.603);
-}
-
-
-
-
-.h1-home {
-    display: none;
-}
-
-.contenedor-carousel {
-    width: 500px;
-}
-
-.h-footer {
-    color: black;
-    font-size: 1.5rem;
-    font-family: roboto;
-}
-
-
-.foter {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    list-style: none;
-
-
-
-
-}
-
-.nav-link {
-    
-    color: cornflowerblue;
-    font-family: roboto;
-    font-size: 1rem;
-
-
-}
-
-.navbar-nav :hover {
-color: rgb(226, 226, 52);
-}
-
-.navbar-nav {
-
-    gap: 37px;
-
-}
-
-.iconos :hover {
-    color: rgb(143, 143, 54);
-}
-
-.iconos {
-    
-    color: black;
-    font-size: 43px;
-
-}
+/*# sourceMappingURL=styles.css.map */
