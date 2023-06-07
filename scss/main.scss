@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: rgba(42, 150, 109, 0.938);
+}
 
-body {
+main{
     background-color: black;
 }
 
 
+
 nav {
+
+    
 
     .nav-link {
 
@@ -41,6 +47,7 @@ nav {
 
 
 section {
+
 
 
     h1 {
@@ -100,7 +107,10 @@ section {
 
     }
 
-
+    .margen-videos{
+        padding-bottom: 2%;
+        padding-top: 1%;
+    }
 }
 
 
@@ -108,7 +118,9 @@ section {
 
 
 footer {
-    background-color: rgba(47, 194, 174, 0.637);
+    background-color: rgba(42, 150, 109, 0.938);
+
+    
 
     .h-footer {
         color: black;
