@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+$color-footer: rgb(25, 82, 80);
+
+html {
+    background-color: $color-footer;
+}
+
+
+main {
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+
+section {
+
+
+
+    h1 {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+
+    }
+
+    h2 {
+        color: grey;
+    }
+
+    h3 {
+        color: gray;
+    }
+
+
+
+
+
+    p {
+        color: rgba(245, 245, 220, 0.822);
+        font-size: 1.3rem;
+        font-family: roboto;
+
+
+    }
+
+
+
+
+
+}
