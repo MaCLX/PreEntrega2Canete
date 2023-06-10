@@ -21,6 +21,8 @@ section h2 {
 }
 section h3 {
   color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 section p {
   color: rgba(245, 245, 220, 0.822);
@@ -38,6 +40,10 @@ section .h1-home {
 
 section .w-75 {
   padding-bottom: 2%;
+  border-radius: 20px;
+}
+section .w-50 {
+  border-radius: 20px;
 }
 
 .estetica-integrantes {
@@ -110,7 +116,7 @@ footer .iconos {
 
 section .contenedor-carousel {
   width: 500px;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 
 /*# sourceMappingURL=styles.css.map */
