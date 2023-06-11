@@ -38,6 +38,10 @@ section .h1-home {
   display: none;
 }
 
+.estetica-home {
+  background-image: linear-gradient(to bottom right, black 80%, rgba(0, 255, 255, 0.596));
+}
+
 section .w-75 {
   padding-bottom: 2%;
   border-radius: 20px;
@@ -47,7 +51,7 @@ section .w-50 {
 }
 
 .estetica-integrantes {
-  background-image: linear-gradient(90deg, black 75%, rgba(87, 223, 223, 0.658));
+  background-image: linear-gradient(to bottom right, black 50%, rgba(0, 255, 255, 0.596));
 }
 
 section .parrafo-historia {
