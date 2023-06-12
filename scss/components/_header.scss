@@ -4,15 +4,22 @@ nav {
     .nav-link {
 
         color: rgba(47, 194, 174, 0.808);
-        font-family: roboto;
+        font-family: tilt prism;
         font-size: 1.1rem;
-        font-weight: bold;
+        text-shadow: 4px 4px 4px red;
+        
+        
+        
 
     }
 
     .navbar-nav :hover {
         color: rgb(52, 226, 130);
+        
+
+
     }
+
 
     .navbar-nav {
 
@@ -25,8 +32,5 @@ nav {
     }
 
 
-    
-    
-    
 
 }

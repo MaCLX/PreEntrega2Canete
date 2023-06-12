@@ -69,18 +69,18 @@ section .margen-videos {
 }
 
 .estetica-videos {
-  background-image: linear-gradient(rgba(77, 167, 189, 0.767) 0% 1%, rgb(0, 0, 0) 4% 100%);
+  background-image: linear-gradient(to bottom left, black 50%, rgba(0, 255, 255, 0.596));
 }
 
 .estetica-contacto {
-  background-image: linear-gradient(rgb(77, 166, 189) 0% 1%, rgb(0, 0, 0) 18% 100%);
+  background-image: linear-gradient(to bottom left, black 75%, rgba(0, 255, 255, 0.596));
 }
 
 nav .nav-link {
   color: rgba(47, 194, 174, 0.808);
-  font-family: roboto;
+  font-family: tilt prism;
   font-size: 1.1rem;
-  font-weight: bold;
+  text-shadow: 4px 4px 4px red;
 }
 nav .navbar-nav :hover {
   color: rgb(52, 226, 130);
