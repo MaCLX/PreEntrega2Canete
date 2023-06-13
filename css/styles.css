@@ -30,6 +30,14 @@ section p {
   font-family: roboto;
 }
 
+button {
+  justify-content: end;
+}
+
+.barra-logo {
+  width: 300px;
+}
+
 section .parrafo-home {
   padding-top: 5%;
   padding-bottom: 4%;
