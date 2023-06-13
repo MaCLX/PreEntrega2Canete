@@ -1,65 +1,36 @@
+header {
 
-header{
-    
-.barra-logo {
-    width: 240px;
+    .barra-logo {
+        width: 240px;
+    }
 }
-}
-
-
 
 
 nav {
 
-
-
-
     .nav-link {
-
         display: flex;
         justify-content: center;
-
         color: rgba(47, 194, 174, 0.808);
         font-family: tilt prism;
         font-size: 1.1rem;
         text-shadow: 4px 4px 4px rgba(0, 0, 255, 0.692);
-
-
-
-
     }
 
 
 
     .navbar-nav :hover {
         color: rgb(52, 226, 130);
-
-
-
     }
 
 
     .navbar-nav {
-
-       
-
-
-
-
-
-
         gap: 40px;
-
-
     }
-
-
 
 }
 
+
 .navbar-toggler {
-   
-
-
     border-color: rgba(92, 102, 110, 0.678);
 }
