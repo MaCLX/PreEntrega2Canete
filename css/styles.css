@@ -34,10 +34,6 @@ button {
   justify-content: end;
 }
 
-.barra-logo {
-  width: 300px;
-}
-
 section .parrafo-home {
   padding-top: 5%;
   padding-bottom: 4%;
@@ -83,6 +79,10 @@ section .margen-videos {
 
 .estetica-contacto {
   background-image: linear-gradient(to bottom left, black 75%, rgba(0, 255, 255, 0.596));
+}
+
+header .barra-logo {
+  width: 230px;
 }
 
 nav .nav-link {
