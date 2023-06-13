@@ -82,10 +82,12 @@ section .margen-videos {
 }
 
 header .barra-logo {
-  width: 230px;
+  width: 300px;
 }
 
 nav .nav-link {
+  display: flex;
+  justify-content: center;
   color: rgba(47, 194, 174, 0.808);
   font-family: tilt prism;
   font-size: 1.1rem;
