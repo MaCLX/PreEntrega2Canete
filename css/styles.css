@@ -43,11 +43,12 @@ section .h1-home {
 }
 
 section .w-75 {
-  padding-bottom: 2%;
-  border-radius: 20px;
+  border-radius: 20%;
+  box-shadow: 8px 8px 18px rgba(50, 50, 189, 0.829);
 }
 section .w-50 {
   border-radius: 20px;
+  box-shadow: 8px 8px 18px rgba(50, 50, 189, 0.829);
 }
 
 .estetica-integrantes {
@@ -80,13 +81,17 @@ nav .nav-link {
   color: rgba(47, 194, 174, 0.808);
   font-family: tilt prism;
   font-size: 1.1rem;
-  text-shadow: 4px 4px 4px red;
+  text-shadow: 4px 4px 4px rgba(0, 0, 255, 0.692);
 }
 nav .navbar-nav :hover {
   color: rgb(52, 226, 130);
 }
 nav .navbar-nav {
   gap: 40px;
+}
+
+.navbar-toggler {
+  border-color: rgba(92, 102, 110, 0.678);
 }
 
 section .formulario {
